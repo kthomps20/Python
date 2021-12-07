@@ -1,0 +1,2 @@
+data_type,time_total,time_increment,time_iosix,sensor_data
+obd,0.968,0.005,2021-12-06 07:32:17.968,"{""status"": ""unknown address"", ""address"": ""1535"", ""bus_id"": ""255""}"

@@ -1,0 +1,5791 @@
+{
+  "topic": "intelligent_tire/iosix/upload/E0E2E6133BC2",
+  "data": "4759017d8e743a1a0e0696500500000a09000205000097e86464500100901b28863c1a0000030000d2b5ff000000000000000000000000000000505000006d0400000000000000030004000300040000000000000000000000000000000000000000000000220027001c002b000000000009000d001e001200000000003c001e0020001e0000000000cf00d200d200d20000000000d200d400d200d4000000000000000000000000000000005060004805000001001f101301f78e00640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000506001f4050000010020101301f78e00640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500501e40a09000105000097e864645060001d050003010021101302598e00640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000506001920500010100221013025b8e00640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000506001910500000100231013025b8e0064000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000050600191050002010024100301362a03e80000052b0000052f000005300000052b0000051e0000051b000004fc000004a10000051a0000051a101301248e006400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005060019205000301002510090144c003e8005ca7001526cc01c7abf6003dae5622920000005ca8001526cc01c7abf6003dae5522920000005ca9001526cc01c7abf6003dae5422920000005caa001526cc01c7abf6003dae5422920000005cab001526cc01c7abf6003dae5522920000005cac001526cc01c7abf4003dae5522920000005cad001526cc01c7abf4003dae5522920000005cae001526cb01c7abf4003dae5622920000005caf001526cb01c7abf6003dae5622920000005cb0001526cb01c7abf4003dae5622920000101301168e00640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000506001910500030100261013025b8e0064000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000050600191050000010027ee",
+  "shadow": {
+    "state": {
+      "reported": {
+        "firmware_version": "1.7.1",
+        "firmware_build_date": "Nov 18 2021 16:15:07",
+        "config_name": "PASSOT3",
+        "config_creation_date": "211119180541",
+        "supply_voltage": 14.157305,
+        "MAC": "E0E2E6133BC2",
+        "utc_time": 1638772446,
+        "temperature": 8.035156,
+        "sleepreason": "daily_ota_check",
+        "stationary": "stationary: 0/0",
+        "RSSI": -98,
+        "status": "running",
+        "nr_pages": 0,
+        "gps": "0.00000/0.00000"
+      }
+    },
+    "metadata": {
+      "reported": {
+        "firmware_version": {
+          "timestamp": 1638772449
+        },
+        "firmware_build_date": {
+          "timestamp": 1638772449
+        },
+        "config_name": {
+          "timestamp": 1638772449
+        },
+        "config_creation_date": {
+          "timestamp": 1638772449
+        },
+        "supply_voltage": {
+          "timestamp": 1638772449
+        },
+        "MAC": {
+          "timestamp": 1638772449
+        },
+        "utc_time": {
+          "timestamp": 1638772449
+        },
+        "temperature": {
+          "timestamp": 1638772449
+        },
+        "sleepreason": {
+          "timestamp": 1638772449
+        },
+        "stationary": {
+          "timestamp": 1638772449
+        },
+        "RSSI": {
+          "timestamp": 1638772449
+        },
+        "status": {
+          "timestamp": 1638772449
+        },
+        "nr_pages": {
+          "timestamp": 1638772449
+        },
+        "gps": {
+          "timestamp": 1638772449
+        }
+      }
+    },
+    "version": 1907,
+    "timestamp": 1638772542
+  },
+  "unknown_frames": [],
+  "invalid_frames": [],
+  "signals": [
+    {
+      "timestamp": 1638772518054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.833
+    },
+    {
+      "timestamp": 1638772519054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.872
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23719
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772519072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772520054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.882
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23720
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772520072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.833
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23721
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772521072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521317,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521317,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521317,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521317,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521317,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521317,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521317,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772521417,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521417,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521417,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521417,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521417,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521417,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521417,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772521497,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "network_state",
+      "signal": 9
+    },
+    {
+      "timestamp": 1638772521497,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "mqtt_state",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521497,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "upl_state",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772521497,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "gps_state",
+      "signal": 5
+    },
+    {
+      "timestamp": 1638772521497,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "FreeHeapSize",
+      "signal": 38888
+    },
+    {
+      "timestamp": 1638772521497,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "Cor0Idle_min",
+      "signal": 100
+    },
+    {
+      "timestamp": 1638772521497,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "Cor1Idle_min",
+      "signal": 100
+    },
+    {
+      "timestamp": 1638772521517,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521517,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521517,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521517,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521517,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521517,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521517,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772521617,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521617,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521617,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521617,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521617,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521617,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521617,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "sensor_id",
+      "signal": 679885850
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "frame_status",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "frame_id",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "tire_index",
+      "signal": 3
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "temperature",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "abs_pressure",
+      "signal": 210
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "rssi",
+      "signal": -75
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "fpl_case",
+      "signal": 255
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "fpl_ms",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "fpl_wheel_rotation",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "fpl_sampling_period",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "fpl_patch_length",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "fpl_frc8",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "batt_voltage",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "diag_sw_ver",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tda_ext",
+      "frame_id": "5001",
+      "signal_name": "diag_fw_ver",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "sensor_num",
+      "signal": 4
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "crc_error_counter",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "vda_error_counter",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "unknown_sensor_counter",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "rec_counter_1LI",
+      "signal": 3
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "rec_counter_1RI",
+      "signal": 4
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "rec_counter_2LI",
+      "signal": 3
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "rec_counter_2RI",
+      "signal": 4
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "rec_counter_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "rec_counter_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_rssi_1LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_rssi_1RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_rssi_2LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_rssi_2RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_rssi_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_rssi_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_rssi_1LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_rssi_1RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_rssi_2LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_rssi_2RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_rssi_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_rssi_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_rssi_1LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_rssi_1RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_rssi_2LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_rssi_2RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_rssi_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_rssi_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_timing_1LI",
+      "signal": 34
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_timing_1RI",
+      "signal": 39
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_timing_2LI",
+      "signal": 28
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_timing_2RI",
+      "signal": 43
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_timing_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "avg_timing_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_timing_1LI",
+      "signal": 9
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_timing_1RI",
+      "signal": 13
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_timing_2LI",
+      "signal": 30
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_timing_2RI",
+      "signal": 18
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_timing_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_timing_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_timing_1LI",
+      "signal": 60
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_timing_1RI",
+      "signal": 30
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_timing_2LI",
+      "signal": 32
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_timing_2RI",
+      "signal": 30
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_timing_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_timing_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_pressure_1LI",
+      "signal": 207
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_pressure_1RI",
+      "signal": 210
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_pressure_2LI",
+      "signal": 210
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_pressure_2RI",
+      "signal": 210
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_pressure_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_pressure_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_pressure_1LI",
+      "signal": 210
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_pressure_1RI",
+      "signal": 212
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_pressure_2LI",
+      "signal": 210
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_pressure_2RI",
+      "signal": 212
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_pressure_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_pressure_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_temperature_1LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_temperature_1RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_temperature_2LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_temperature_2RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_temperature_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "min_temperature_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_temperature_1LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_temperature_1RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_temperature_2LI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_temperature_2RI",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_temperature_2LO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521641,
+      "frame_name": "tpms_diag",
+      "frame_id": "5050",
+      "signal_name": "max_temperature_2RO",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521713,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521713,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772521713,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772521713,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 31
+    },
+    {
+      "timestamp": 1638772521717,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521717,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521717,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521717,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521717,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521717,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521717,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772521817,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521817,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521817,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521817,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521817,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521817,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521817,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772521917,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521917,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521917,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521917,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521917,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521917,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772521917,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522017,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522017,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522017,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522017,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522017,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522017,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522017,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.707
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23722
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772522072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522117,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522117,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522117,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522117,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522117,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522117,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522117,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522217,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522217,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522217,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522217,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522217,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522217,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522217,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522320,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522320,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522320,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522320,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522320,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522320,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522320,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522420,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522420,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522420,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522420,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522420,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522420,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522420,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522520,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522520,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522520,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522520,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522520,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522520,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522520,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522620,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522620,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522620,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522620,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522620,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522620,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522620,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522717,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522717,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772522717,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772522717,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 32
+    },
+    {
+      "timestamp": 1638772522720,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522720,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522720,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522720,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522720,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522720,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522720,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522820,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522820,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522820,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522820,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522820,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522820,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522820,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772522920,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522920,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522920,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522920,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522920,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522920,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772522920,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523020,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523020,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523020,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523020,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523020,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523020,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523020,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.678
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23723
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772523072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523120,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523120,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523120,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523120,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523120,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523120,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523120,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523220,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523220,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523220,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523220,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523220,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523220,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523220,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523433,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523433,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523433,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523433,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523433,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523433,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523433,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523534,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523534,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523534,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523534,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523534,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523534,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523534,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523633,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523633,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523633,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523633,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523633,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523633,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523633,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523704,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "network_state",
+      "signal": 9
+    },
+    {
+      "timestamp": 1638772523704,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "mqtt_state",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772523704,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "upl_state",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772523704,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "gps_state",
+      "signal": 5
+    },
+    {
+      "timestamp": 1638772523704,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "FreeHeapSize",
+      "signal": 38888
+    },
+    {
+      "timestamp": 1638772523704,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "Cor0Idle_min",
+      "signal": 100
+    },
+    {
+      "timestamp": 1638772523704,
+      "frame_name": "Diag",
+      "frame_id": "5005",
+      "signal_name": "Cor1Idle_min",
+      "signal": 100
+    },
+    {
+      "timestamp": 1638772523733,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.003
+    },
+    {
+      "timestamp": 1638772523733,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772523733,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772523733,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 33
+    },
+    {
+      "timestamp": 1638772523734,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523734,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523734,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523734,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523734,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523734,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523734,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523833,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523833,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523833,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523833,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523833,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523833,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523833,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772523934,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523934,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523934,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523934,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523934,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523934,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772523934,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524033,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524033,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524033,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524033,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524033,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524033,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524033,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.377
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23724
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772524072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524134,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524134,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524134,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524134,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524134,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524134,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524134,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524233,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524233,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524233,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524233,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524233,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524233,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524233,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524334,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524334,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524334,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524334,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524334,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524334,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524334,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524439,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524439,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524439,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524439,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524439,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524439,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524439,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524539,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524539,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524539,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524539,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524539,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524539,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524539,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524639,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524639,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524639,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524639,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524639,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524639,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524639,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524736,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.001
+    },
+    {
+      "timestamp": 1638772524736,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772524736,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772524736,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 34
+    },
+    {
+      "timestamp": 1638772524739,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524739,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524739,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524739,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524739,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524739,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524739,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524839,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524839,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524839,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524839,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524839,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524839,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524839,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772524939,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524939,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524939,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524939,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524939,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524939,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772524939,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525039,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525039,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525039,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525039,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525039,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525039,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525039,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 11.495
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23725
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772525072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525139,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525139,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525139,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525139,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525139,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525139,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525139,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525239,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525239,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525239,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525239,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525239,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525239,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525239,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525339,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525339,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525339,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525339,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525339,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525339,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525339,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525443,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525443,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525443,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525443,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525443,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525443,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525443,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525543,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525543,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525543,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525543,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525543,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525543,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525543,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525643,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525643,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525643,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525643,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525643,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525643,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525643,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525740,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525740,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772525740,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772525740,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 35
+    },
+    {
+      "timestamp": 1638772525743,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525743,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525743,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525743,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525743,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525743,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525743,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525843,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525843,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525843,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525843,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525843,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525843,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525843,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772525943,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525943,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525943,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525943,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525943,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525943,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772525943,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526043,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526043,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526043,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526043,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526043,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526043,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526043,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.668
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23726
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 11
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772526072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526143,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526143,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526143,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526143,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526143,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526143,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526143,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526243,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526243,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526243,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526243,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526243,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526243,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526243,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526343,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526343,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526343,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526343,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526343,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526343,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526343,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526446,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526446,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526446,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526446,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526446,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526446,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526446,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526545,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526545,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526545,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526545,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526545,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526545,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526545,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526646,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526646,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526646,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526646,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526646,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526646,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526646,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526744,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.002
+    },
+    {
+      "timestamp": 1638772526744,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772526744,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772526744,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 36
+    },
+    {
+      "timestamp": 1638772526745,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526745,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526745,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526745,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526745,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526745,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526745,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526846,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526846,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526846,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526846,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526846,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526846,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526846,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772526945,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526945,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526945,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526945,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526945,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526945,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772526945,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527046,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527046,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527046,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527046,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527046,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527046,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527046,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527054,
+      "frame_name": "ADC",
+      "frame_id": "1003",
+      "signal_name": "VBAT",
+      "signal": 12.668
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23727
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 11
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772527072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527145,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527145,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527145,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527145,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527145,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527145,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527145,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527246,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527246,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527246,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527246,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527246,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527246,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527246,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527345,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527345,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527345,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527345,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527345,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527345,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527345,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527449,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527449,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527449,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527449,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527449,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527449,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527449,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527550,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527550,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527550,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527550,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527550,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527550,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527550,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527649,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527649,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527649,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527649,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527649,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527649,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527649,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527748,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.003
+    },
+    {
+      "timestamp": 1638772527748,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772527748,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772527748,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 37
+    },
+    {
+      "timestamp": 1638772527750,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527750,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527750,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527750,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527750,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527750,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527750,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527849,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527849,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527849,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527849,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527849,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527849,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527849,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772527950,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527950,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527950,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527950,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527950,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527950,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772527950,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528049,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528049,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528049,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528049,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528049,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528049,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528049,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight",
+      "signal": 23728
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Time_Since_Midnight_mSec",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Day",
+      "signal": 2
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_DataValidity",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Year",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Nav_Date_Month",
+      "signal": 12
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_NumOfSats",
+      "signal": 11
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Latitude",
+      "signal": 49.7715
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "GPS_Pos_Longitude",
+      "signal": 6.73721
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Heading",
+      "signal": 88.5
+    },
+    {
+      "timestamp": 1638772528072,
+      "frame_name": "GPS",
+      "frame_id": "1009",
+      "signal_name": "Speed_kmh",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528150,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528150,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528150,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528150,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528150,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528150,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528150,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528249,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528249,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528249,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528249,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528249,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528249,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528249,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528350,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528350,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528350,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528350,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528350,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528350,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528350,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528454,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528454,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528454,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528454,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528454,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528454,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528454,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528553,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528553,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528553,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528553,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528553,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528553,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528553,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528654,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528654,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528654,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528654,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528654,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528654,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528654,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528751,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.003
+    },
+    {
+      "timestamp": 1638772528751,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772528751,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772528751,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 38
+    },
+    {
+      "timestamp": 1638772528753,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528753,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528753,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528753,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528753,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528753,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528753,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528854,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528854,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528854,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528854,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528854,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528854,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528854,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772528953,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528953,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528953,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528953,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528953,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528953,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772528953,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772529054,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529054,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529054,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529054,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529054,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529054,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529054,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772529153,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529153,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529153,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529153,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529153,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529153,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529153,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772529254,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529254,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529254,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529254,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529254,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529254,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529254,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772529353,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529353,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529353,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_ACC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529353,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_X",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529353,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Y",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529353,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_GCC_Z",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529353,
+      "frame_name": "MEMS",
+      "frame_id": "1013",
+      "signal_name": "MEMS_TEMP",
+      "signal": 25.0
+    },
+    {
+      "timestamp": 1638772529755,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "diff_resultant",
+      "signal": 0.0
+    },
+    {
+      "timestamp": 1638772529755,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "trip_status",
+      "signal": 1
+    },
+    {
+      "timestamp": 1638772529755,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "motion_count",
+      "signal": 0
+    },
+    {
+      "timestamp": 1638772529755,
+      "frame_name": "TRIP_DIAG",
+      "frame_id": "5060",
+      "signal_name": "wakeup_times",
+      "signal": 39
+    }
+  ],
+  "msg_number": 14,
+  "metadata_name": "decoder_v3.14",
+  "MAC": "E0E2E6133BC2"
+}
