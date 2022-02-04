@@ -3,7 +3,6 @@ def coffee_bot():
   print("Welcome to the cafe!")
 coffee_bot()
 
-
 def get_size():
   res = input('What size drink can I get for you?        \n[a] Small \n[b] Medium \n[c] Large \n>')
   if res == 'a':
